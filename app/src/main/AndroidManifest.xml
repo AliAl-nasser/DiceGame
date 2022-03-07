@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="se.umu.alal0507.thirty">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Thirty-Dice Game"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ThirtyDiceGame">
+        <activity
+            android:name="se.umu.alal0507.thirty.Controllers.ScoreActivity" />
+        <activity
+            android:name="se.umu.alal0507.thirty.Controllers.InGameActivity" />
+        <activity
+            android:name="se.umu.alal0507.thirty.Controllers.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

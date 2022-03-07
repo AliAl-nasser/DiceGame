@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Thirty- Dice Game</string>
+    <string name="rounds">Round: 1</string>
+    <string name="numberOfRolls">2</string>
+    <string name="roll">ROLL</string>
+    <string name="collect_points">COLLECT POINTS</string>
+    <string name="points">Points:</string>
+    <string name="thirty_dice_game">Thirty Dice Game</string>
+    <string name="start_new_game">START NEW GAME</string>
+    <string name="thirtyIcon">thirtyIcon</string>
+    <string name="rule">Rules:</string>
+    <string name="rules">1. Each game consist of 10 rounds.
+        \n\n2. Each round you have the possibility to re-roll twice.
+        \n\n3. The value chosen during each round, can only be chosen once.
+        \n\n4. Before each re-roll you can chose which dices you want to roll and which you want to keep.
+        \n\n5. The sum of a combination of one or more dices that equals to your choice will provide points,the choice
+        Low equals to 3.
+        \n\nExample: the dices 1,1,1,2,4 with the choice 4 will provide you 10 points, and the dices 1,2,3,4,5,6
+        with the choice Low will provide you 6 points (sum of 1,2,3).</string>
+    <string name="you_scored">You Scored:</string>
+    <string name="choice">Choice</string>
+    <string name="score">Score</string>
+    <string name="menu">Menu</string>
+    <string name="total_score">Total Score:</string>
+
+    <string-array name="points">
+        <item>Pick a Score</item>
+        <item>Low</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+</resources>
